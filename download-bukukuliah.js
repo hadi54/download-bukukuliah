@@ -1,75 +1,3 @@
-<div class="text-center margin-bottom-20">
-<h3>Advertise</h3>
-KODE IKLAN DISINI
-  </div>
-
-<div class="row margin-bottom-20">
-  <div class="col-md-6">
-<div class="panel panel-primary">
-    <div class="panel-heading text-center"><h2><i class="fa fa-shield"></i> Safe Link Converter <i class="fa fa-shield"></i></h2></div>
-        <div class="panel-body text-center">
-          <p class="text-primary margin-bottom-20">Encrypting your link and protect the link from viruses, malware, thief, etc!<br/>Made your link safe to visit.</p>
-
-<div class="progress" id="daplong">
-    <div class="progress-bar progress-bar-striped active six-sec-ease-in-out" role="progressbar" data-transitiongoal="100"></div>
-</div>
-<button id="download2" class="alert alert-dismissible alert-success btn-lg" style='display:none'><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <strong>Well done!</strong> you have successfully gained access to Decrypted Link. <i class="fa fa-hand-o-down slideInDownThumb" aria-hidden="true"></i></button>
-
-        </div>
-      </div>
-</div>
-  <div class="col-md-6 text-left">
-<div class="panel panel-info">
-  <!-- Default panel contents -->
-  <div class="panel-heading"><h2><i class="fa fa-question-circle-o" aria-hidden="true"></i> How to use our tool:</h2></div>
-  <div class="panel-body">
-<ol>
-<li>Click on <strong>How To Use</strong> menu above.</li>
-<li>Click on the code and <kbd><kbd>CTRL</kbd> + <kbd>C</kbd></kbd> on your keyboard.</li>
-<li>Paste the code in your HTML blog theme before the <mark>&lt;/body&gt;</mark>.</li>
-<li>Save your HTML blog theme. you are done!</li>
-<li>Now, your blog's outbound links was encrypted!</li>
-</ol>
-  </div>
-</div>
-</div><div class="clear"></div>
-</div>
-
-<div class="row margin-bottom-20">
-  <div class="col-md-4 text-center">
-<h3>Advertise</h3>
-KODE IKLAN DISINI
-</div>
-  <div class="col-md-4 margin-top-25">
-<div class="panel panel-success text-center">
-<div class="panel-heading">
-<h3 class="panel-title">
-<b>Your link show here</b> <i aria-hidden="true" class="fa fa-hand-o-down"></i></h3>
-</div>
-<div class="panel-body">
-<script src="https://cdn.rawgit.com/dedi96/safelink/813ce72f/safelinkga.js" type="text/javascript"></script>
-<script type="text/javascript">
-var currentURL=location.href;
-var str = currentURL;
-var res = str.replace("https://download-bukukuliah.blogspot.com/p/generate.html?url=", "");
-document.write('<button type="button" id="download" class="Visit_Link btn btn-success" onclick="changeLink();" style="display: none;"><strong>Visit Link</strong> <i class="fa fa-external-link" aria-hidden="true"></i></button>')
-</script>
-  </div>
-</div>
-</div>
- <div class="col-md-4 text-center">
-<h3>Advertise</h3>
-KODE IKLAN DISINI
-</div>
-<div class="clear"></div>
-</div>
-
-<div class="container">
-  <div class="text-left">
-
-  </div>
-</div>
-
 var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(input){var output="";var chr1,chr2,chr3,enc1,enc2,enc3,enc4;var i=0;input=Base64._utf8_encode(input);while(i<input.length){chr1=input.charCodeAt(i++);chr2=input.charCodeAt(i++);chr3=input.charCodeAt(i++);enc1=chr1>>2;enc2=((chr1&3)<<4)|(chr2>>4);enc3=((chr2&15)<<2)|(chr3>>6);enc4=chr3&63;if(isNaN(chr2)){enc3=enc4=64;}else if(isNaN(chr3)){enc4=64;}
 output=output+ this._keyStr.charAt(enc1)+ this._keyStr.charAt(enc2)+ this._keyStr.charAt(enc3)+ this._keyStr.charAt(enc4);}
 return output;},decode:function(input){var output="";var chr1,chr2,chr3;var enc1,enc2,enc3,enc4;var i=0;input=input.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(i<input.length){enc1=this._keyStr.indexOf(input.charAt(i++));enc2=this._keyStr.indexOf(input.charAt(i++));enc3=this._keyStr.indexOf(input.charAt(i++));enc4=this._keyStr.indexOf(input.charAt(i++));chr1=(enc1<<2)|(enc2>>4);chr2=((enc2&15)<<4)|(enc3>>2);chr3=((enc3&3)<<6)|enc4;output=output+ String.fromCharCode(chr1);if(enc3!=64){output=output+ String.fromCharCode(chr2);}
@@ -90,7 +18,7 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://download-bukukuliah.blogspot.com/p/generate.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="http://www.safelink.ga/p/generate.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
